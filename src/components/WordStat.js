@@ -1,5 +1,5 @@
 import './WordStat.css';
-import voice from "../images/voice.svg";
+import voice from "./images/voice.svg";
 
 function WordStat(props) {
     return (

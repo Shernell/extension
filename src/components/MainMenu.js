@@ -1,6 +1,6 @@
 import './MainMenu.css';
-import BookOpen from "../images/BookOpen";
-import FolderOpen from "../images/FolderOpen";
+import BookOpen from "./images/BookOpen";
+import FolderOpen from "./images/FolderOpen";
 
 function MainMenu() {
     return (
