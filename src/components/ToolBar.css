@@ -1,0 +1,35 @@
+.tool-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+}
+
+.search {
+    height: 25px;
+    width: 157px;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.sort {
+    height: 25px;
+    width: 157;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.idiom {
+    height: 25px;
+    width: 84px;
+    border-radius: 11px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}

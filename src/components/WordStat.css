@@ -36,20 +36,29 @@
     align-items: center;
     padding: 5px;
     width: 92px;
+    box-sizing: content-box;
+    justify-content: flex-start;
 }
 
+.word-stat__pronunce__transcr {
+    display: flex;
+    margin: 1px;
+}
+
+.word-stat__pronunce__voice {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
 .aud_img {
     width: 19px;
     border: unset;
     height: 17px;
     display: flex;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
+    margin-left: 5px;
     background-size: cover;
     background-position: center;
-    background-image: "src\images\voice.svg";
 }
 
 .word-stat__translation {
@@ -60,7 +69,7 @@
     width: 133px;
 }
 
-.word-stat_example {
+.word-stat__example {
     display: flex;
     flex-direction: column;
     align-items: flex-start;

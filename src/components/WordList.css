@@ -1,0 +1,6 @@
+.word__list
+{
+    display: flex;
+    flex-direction: column;
+    border: unset;
+}

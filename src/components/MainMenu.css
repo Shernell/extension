@@ -1,0 +1,20 @@
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    width: 102px;
+    height: auto;
+}
+
+.dict {
+    width: 42px;
+    height: 42px;
+    padding: 0%;
+    margin-left: 9px ;
+}
+
+.category {
+    width: 42px;
+    height: 42px;
+    padding: 0%;
+    margin-right: 9px;
+}
