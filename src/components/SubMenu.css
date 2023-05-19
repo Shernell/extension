@@ -1,0 +1,14 @@
+.sub-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon {
+    width: 27px;
+    height: 27px;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+}

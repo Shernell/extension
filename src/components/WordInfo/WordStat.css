@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 3px;
-    width: 502px;
+    width: 500px;
     height: 55px;
     padding: 0px 5px;
     overflow: hidden;
@@ -20,6 +20,7 @@
     padding: 5px;
     width: 115px;
     height: auto;
+    margin: auto;
     font-size: 20px;
     font-style: Regular;
     text-align: center;
@@ -30,43 +31,15 @@
     text-decoration: none;
 }
 
-.word-stat__pronunce {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-    width: 92px;
-    box-sizing: content-box;
-    justify-content: flex-start;
-}
-
-.word-stat__pronunce__transcr {
-    display: flex;
-    margin: 1px;
-}
-
-.word-stat__pronunce__voice {
-    display: flex;
-    flex-direction: row;
-    padding: 1px;
-}
-.aud_img {
-    width: 19px;
-    border: unset;
-    height: 17px;
-    display: flex;
-    padding: 0px;
-    margin-left: 5px;
-    background-size: cover;
-    background-position: center;
-}
-
 .word-stat__translation {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 5px;
-    width: 133px;
+    margin: auto;
+    align-items: center;
+    width: 130px;
+    height: 45px;
 }
 
 .word-stat__example {
@@ -74,5 +47,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 5px;
-    width: 162px;
+    margin: auto;
+    align-items: center;
+    width: 150px;
+    height: 45px;
 }

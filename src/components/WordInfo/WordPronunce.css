@@ -1,0 +1,27 @@
+.pronunce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 92px;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+.pronunce__voice {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.aud_img {
+    width: 19px;
+    border: unset;
+    height: 17px;
+    display: flex;
+    padding: 0px;
+    margin-left: 5px;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}

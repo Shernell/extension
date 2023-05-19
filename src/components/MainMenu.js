@@ -1,14 +1,16 @@
 import './MainMenu.css';
-import BookOpen from "./images/BookOpen";
-import FolderOpen from "./images/FolderOpen";
+import BookOpen from "./images/BookOpen.svg";
+import FolderOpen from "./images/FolderOpen.svg";
 
 function MainMenu() {
     return (
         <div className='main-menu'>
-            <button className='dict'
+            <button title='Словарь' className='dict'
             style={{ backgroundImage: `url(${BookOpen})`}}></button>
-            <button className='category'
+            <button title='Категории' className='category'
             style={{ backgroundImage: `url(${FolderOpen})`}}></button>
         </div>
-    )
+    );
 }
+
+export default MainMenu;

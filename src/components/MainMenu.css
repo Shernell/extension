@@ -1,8 +1,13 @@
 .main-menu {
     display: flex;
     flex-direction: row;
-    width: 102px;
-    height: auto;
+    width: auto;
+    height: 42px;
+    gap: 21px;
+    margin-left: 18px;
+    margin-right: 230px;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .dict {
@@ -10,11 +15,15 @@
     height: 42px;
     padding: 0%;
     margin-left: 9px ;
+    border: unset;
+    background-color: white;
 }
 
 .category {
-    width: 42px;
-    height: 42px;
+    width: 39px;
+    height: 39px;
     padding: 0%;
     margin-right: 9px;
+    border: unset;
+    background-color: white;
 }

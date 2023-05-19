@@ -8,3 +8,5 @@ function WordList(props) {
         </div>
     );
 }
+
+export default WordList;

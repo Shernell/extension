@@ -3,9 +3,9 @@ import './ToolBar.css'
 function ToolBar() {
     return(
         <div className='tool-bar'>
-            <button className='search'></button>
-            <button className='sort'></button>
-            <button className='idiom'> Идиомы </button>
+            <input type='text' className='search' />
+            <button type='button' className='sort'></button>
+            <button type='button' className='idiom'> Идиомы </button>
         </div>
     );
 }

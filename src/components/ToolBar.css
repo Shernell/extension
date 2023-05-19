@@ -5,6 +5,7 @@
     align-items: flex-start;
     height: auto;
     width: auto;
+    margin-bottom: 5px;
 }
 
 .search {
@@ -14,6 +15,7 @@
     border-width: 1px;
     border-color: black;
     border-style: solid;
+    color: white;
 }
 
 .sort {
@@ -23,6 +25,7 @@
     border-width: 1px;
     border-color: black;
     border-style: solid;
+    background-color: white;
 }
 
 .idiom {
@@ -32,4 +35,5 @@
     border-width: 1px;
     border-color: black;
     border-style: solid;
+    background-color: white;
 }
