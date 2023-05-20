@@ -3,13 +3,13 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 3px;
-    width: 500px;
+    width: 490px;
     height: 55px;
-    padding: 0px 5px;
     overflow: hidden;
     flex-shrink: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    
+    padding: auto;
+    margin: auto;
 }
 
 .word-stat h2 {
@@ -18,7 +18,7 @@
     flex-direction: row;
     align-items: center;
     padding: 5px;
-    width: 115px;
+    width: 100px;
     height: auto;
     margin: auto;
     font-size: 20px;

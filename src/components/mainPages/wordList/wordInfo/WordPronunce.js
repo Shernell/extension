@@ -1,5 +1,5 @@
 import "./WordPronunce.css"
-import voice from "../images/voice.svg";
+import voice from "../../../images/voice.svg"
 
 const WordPronunce = (props) => {
     return (

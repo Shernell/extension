@@ -1,8 +1,8 @@
 import './MainMenu.css';
-import BookOpen from "./images/BookOpen.svg";
-import FolderOpen from "./images/FolderOpen.svg";
+import BookOpen from "../images/BookOpen.svg";
+import FolderOpen from "../images/FolderOpen.svg";
 
-function MainMenu() {
+const MainMenu = () => {
     return (
         <div className='main-menu'>
             <button title='Словарь' className='dict'

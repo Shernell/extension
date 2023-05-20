@@ -1,12 +1,12 @@
-import WordStat from './components/WordInfo/WordStat';
-import MainMenu from './components/MainMenu';
-import SubMenu from './components/SubMenu'
-import ToolBar from './components/ToolBar';
+import MainMenu from './components/mainPages/MainMenu';
+import SubMenu from './components/mainPages/SubMenu'
+import PageDict from './components/mainPages/PageDict';
 import logoGradRight from './components/images/logoGradRight.svg';
 import background from './components/images/background.svg'
 import './App.css'
 
-function App() {
+
+const App = () => {
   
   const word_list = [
     {
@@ -16,7 +16,8 @@ function App() {
       transcription_us: "tr_us",
       voice_us: "",
       translation: "translation1",
-      examples:"example1"
+      examples:"example1",
+      date: new Date(),
     }
   ]
   
@@ -27,12 +28,9 @@ function App() {
         <MainMenu />
         <SubMenu />
       </div>
-      <div className='main'>
-        <ToolBar />
-        <WordStat word={word_list[0].word} transcription_uk={word_list[0].transcription_uk}
-        voice_uk={word_list[0].voice_uk} transcription_us={word_list[0].transcription_us} 
-        voice_us={word_list[0].voice_us} translation={word_list[0].translation} examples={word_list[0].examples} />
-      </div>
+      <PageDict word={word_list[0].word} transcription_uk={word_list[0].transcription_uk}
+                voice_uk={word_list[0].voice_uk} transcription_us={word_list[0].transcription_us} 
+                voice_us={word_list[0].voice_us} translation={word_list[0].translation} examples={word_list[0].examples} />
     </body>
   );
 }

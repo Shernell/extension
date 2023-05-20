@@ -22,23 +22,13 @@ body {
 .head {
     display: flex;
     flex-direction: row;
-    width: 460px;
+    width: 465px;
     height: 80px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
     padding-left: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
     padding-right: 5px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    width: 510px;
-    height: auto;
-    padding-left: 30px;
-    padding-right: 10px;
 }

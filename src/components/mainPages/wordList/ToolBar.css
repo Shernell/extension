@@ -4,15 +4,16 @@
     gap: 19px;
     align-items: flex-start;
     height: auto;
-    width: auto;
-    margin-bottom: 5px;
+    width: 490px;
+    padding: 5px;
+    
 }
 
 .search {
     height: 25px;
     width: 157px;
     border-radius: 11px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: black;
     border-style: solid;
     color: white;
@@ -22,7 +23,7 @@
     height: 25px;
     width: 157;
     border-radius: 11px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: white;
@@ -30,10 +31,11 @@
 
 .idiom {
     height: 25px;
-    width: 84px;
+    width: 87px;
     border-radius: 11px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: white;
+    text-align: left;
 }

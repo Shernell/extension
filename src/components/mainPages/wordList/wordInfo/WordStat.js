@@ -2,7 +2,7 @@ import WordPronunce from './WordPronunce';
 import './WordStat.css';
 import React, {useState} from 'react';
 
-function WordStat(props) {
+const WordStat = (props) => {
 
   useState();
   

@@ -1,6 +1,6 @@
 import "./Categories.css";
 
-function Categories() {
+const Categories = () => {
     return(
         <div>
 
